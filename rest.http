@@ -1,0 +1,74 @@
+GET  http://localhost:4000/
+Content-Type: application/json
+###
+GET    http://localhost:4000/schools
+Content-Type: application/json
+
+###
+POST http://localhost:4000/schools/form
+Content-Type: application/json
+
+{
+    "school" : "dfgdfhfdh"
+}
+###
+GET http://localhost:4000/admin/applications
+Content-Type: application/json
+
+###
+PUT     http://localhost:4000/admin/applications/approval
+Content-Type: application/json
+
+###
+POST    http://localhost:4000/schools/login
+Content-Type: application/json
+
+###
+POST http://localhost:4000/students/form
+Content-Type: application/json
+
+
+###
+GET  http://localhost:4000/schools/applications
+Content-Type: application/json
+
+###
+PUT http://localhost:4000/schools/applications/approval
+Content-Type: application/json
+###
+
+POST  http://localhost:4000/admin/course/create
+Content-Type: application/json
+
+{
+    "courseName" : "python",
+    "description" : "dxvkxvx xcxzchxzc xcxzcnnxzcxz",
+    "duration" : "4",
+    "price" : "1500",
+    "discount" : "10"
+
+
+}
+
+###
+POST  http://localhost:4000/schools/course/subscribe
+Content-Type: application/json
+
+{
+    "id" : "63bd46ec2c76d9481b7a593f",
+    "school" : "vimala"
+}
+
+
+###
+POST  http://localhost:4000/schools/course/payments
+Content-Type: application/json
+
+
+###
+GET   http://localhost:4000/admin/schools/status
+
+
+
+###
+GET http://localhost:4000/schools/students/status
